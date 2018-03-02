@@ -12,14 +12,6 @@ Finally, we deploy our app to Heroku:
 $ git push heroku master
 ```
 
-(You may see the  following warning the first time - it's fine---answer
-"yes", and in the future you shouldn't see it anymore:)
-
-    The authenticity of host 'heroku.com (50.19.85.132)' can't be established.
-    RSA key fingerprint is 8b:48:5e:67:0e:c9:16:47:32:f2:87:0c:1f:c8:60:ad.
-    Are you sure you want to continue connecting (yes/no)? 
-    Please type 'yes' or 'no':
-
 Is the app running on Heroku?  If you navigate to the heroku URL that is printed at the end of the results from `git push heroku master` you'll get a "We're sorry, but something went wrong." error in the browser.  
 
 We can get a hint as to why by running the following command:
