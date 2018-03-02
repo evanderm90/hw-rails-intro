@@ -1,7 +1,7 @@
 ## Part 0 (A): Preparation: get RottenPotatoes running locally
 You can use the github classroom link in edx to create your repo for this assignment. Then you can clone it into Cloud 9 like below.
 ```sh
-$ git clone https://github.com/itsc355/hw4-rails-intro-yourUsername
+$ git clone https://github.com/itsc3155/hw4-rails-intro-yourUsername
 ```
 
 Whenever you start working on a Rails project, the first thing you should do is to run Bundler, to make sure all the app's gems are installed.  Switch to the app's root directory (presumably `rottenpotatoes-rails-intro`) and run `bundle install --without production` (you only need to specify `--without production` the first time, as this setting will be remembered on future runs of Bundler for this project).
